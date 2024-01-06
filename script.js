@@ -37,5 +37,6 @@ partida = () => {
 }
 
 document.addEventListener('keydown' , jump);
+document.addEventListener('touchstart', jump)
 
 window.document.onload = partida();
